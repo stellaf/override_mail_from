@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="override_email_from" model="ir.config_parameter">
+            <field name="key">override_mail_from.override_email_from</field>
+            <field name="value">your smtp sender email</field>
+        </record>
+    </data>
+</openerp>
